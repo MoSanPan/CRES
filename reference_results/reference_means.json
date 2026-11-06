@@ -1,0 +1,404 @@
+{
+  "definition": "Average MSE within each configuration, compute 100*(1-CRES/baseline), then average configurations equally. A zero baseline denominator leaves the whole-collection mean undefined.",
+  "core": [
+    {
+      "metric": "mse",
+      "baseline": "CMS_mean_plus",
+      "mean_relative_reduction_percent": 96.73638047476129,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CMS_min",
+      "mean_relative_reduction_percent": 99.95485864466316,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CMS_shrink",
+      "mean_relative_reduction_percent": 4.651633202324017,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_mean_plus",
+      "mean_relative_reduction_percent": 96.65265202902748,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_median_plus",
+      "mean_relative_reduction_percent": 97.6228060044539,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_shrink",
+      "mean_relative_reduction_percent": 4.632857379621308,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CU_min",
+      "mean_relative_reduction_percent": 99.83877102748144,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "Misra_Gries",
+      "mean_relative_reduction_percent": 11.390170267775284,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "constant",
+      "mean_relative_reduction_percent": 6.391799039128139,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "dictionary_CMS_raw",
+      "mean_relative_reduction_percent": 98.12423627072234,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "proposed_affine",
+      "mean_relative_reduction_percent": 0.0004273552503116414,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "zero",
+      "mean_relative_reduction_percent": 15.545709385039416,
+      "undefined_configurations": []
+    }
+  ],
+  "stream_blocks": [
+    {
+      "metric": "mse",
+      "baseline": "CMM_mean",
+      "mean_relative_reduction_percent": 64.75166289220829,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CMS_mean_plus",
+      "mean_relative_reduction_percent": 96.67778281715434,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CMS_min",
+      "mean_relative_reduction_percent": 99.89512982872296,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CMS_shrink",
+      "mean_relative_reduction_percent": 12.34570374532601,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_mean_plus",
+      "mean_relative_reduction_percent": 96.53250794474499,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_median_plus",
+      "mean_relative_reduction_percent": 97.54937911620995,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CS_shrink",
+      "mean_relative_reduction_percent": 12.300453060583711,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "CU_min",
+      "mean_relative_reduction_percent": 99.67706109078382,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "Misra_Gries",
+      "mean_relative_reduction_percent": null,
+      "undefined_configurations": [
+        "public_blocks_031"
+      ]
+    },
+    {
+      "metric": "mse",
+      "baseline": "constant",
+      "mean_relative_reduction_percent": 14.168856981178603,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "dictionary_CMS_raw",
+      "mean_relative_reduction_percent": 97.94289997877702,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "proposed_affine",
+      "mean_relative_reduction_percent": 0.012630263242059217,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "mse",
+      "baseline": "zero",
+      "mean_relative_reduction_percent": 18.999858450614965,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CMM_mean",
+      "mean_relative_reduction_percent": -6723.162853148867,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CMS_mean_plus",
+      "mean_relative_reduction_percent": 56.88320513278532,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CMS_min",
+      "mean_relative_reduction_percent": -247.76027401470196,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CMS_shrink",
+      "mean_relative_reduction_percent": 11.16242333186678,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CS_mean_plus",
+      "mean_relative_reduction_percent": 54.41466559376321,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CS_median_plus",
+      "mean_relative_reduction_percent": -5260.367322095248,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CS_shrink",
+      "mean_relative_reduction_percent": 11.123526591076802,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "CU_min",
+      "mean_relative_reduction_percent": -1715.7409909668165,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "Misra_Gries",
+      "mean_relative_reduction_percent": null,
+      "undefined_configurations": [
+        "public_blocks_031"
+      ]
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "constant",
+      "mean_relative_reduction_percent": 14.500506330741954,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "dictionary_CMS_raw",
+      "mean_relative_reduction_percent": -2137.0202665143574,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "proposed_affine",
+      "mean_relative_reduction_percent": 0.006922325104626499,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "present_mse",
+      "baseline": "zero",
+      "mean_relative_reduction_percent": 23.52662018448895,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CMM_mean",
+      "mean_relative_reduction_percent": -46379.527818091825,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CMS_mean_plus",
+      "mean_relative_reduction_percent": -1268.1884218706762,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CMS_min",
+      "mean_relative_reduction_percent": -187246.9787452789,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CMS_shrink",
+      "mean_relative_reduction_percent": 11.954337589636685,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CS_mean_plus",
+      "mean_relative_reduction_percent": -2821.4581308485035,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CS_median_plus",
+      "mean_relative_reduction_percent": -2353350.31929199,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CS_shrink",
+      "mean_relative_reduction_percent": 11.920511756756486,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "CU_min",
+      "mean_relative_reduction_percent": -4072187.8858994595,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "Misra_Gries",
+      "mean_relative_reduction_percent": null,
+      "undefined_configurations": [
+        "public_blocks_031"
+      ]
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "constant",
+      "mean_relative_reduction_percent": 15.232523107531197,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "dictionary_CMS_raw",
+      "mean_relative_reduction_percent": -3894642.5063659814,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "proposed_affine",
+      "mean_relative_reduction_percent": 0.005694325008710986,
+      "undefined_configurations": []
+    },
+    {
+      "metric": "frequency_weighted_mse",
+      "baseline": "zero",
+      "mean_relative_reduction_percent": 23.293594759262263,
+      "undefined_configurations": []
+    }
+  ],
+  "cmm_workloads": {
+    "all_configuration_count": 48,
+    "sensitivity_configuration_count": 46,
+    "sensitivity_exclusion": "IBM Belem, 32-bit encoding, fourth block (index 3), both payloads",
+    "mean_cres_to_cmm_mse_ratio": {
+      "present_mse": 68.23162853148867,
+      "frequency_weighted_mse": 464.7952781809183
+    },
+    "sensitivity_mean_reduction_percent": {
+      "present_mse": 64.84537437692738,
+      "frequency_weighted_mse": 21.88584836547826
+    }
+  },
+  "throughput": [
+    {
+      "payload_words": 1280,
+      "algorithm": "CMM_mean",
+      "update_mean_mops": 5.031646277584884,
+      "present_query_mean_mops": 2.572073473327982,
+      "uniform_query_mean_mops": 2.554839631231391
+    },
+    {
+      "payload_words": 1280,
+      "algorithm": "CMS_shrink",
+      "update_mean_mops": 4.558605362980914,
+      "present_query_mean_mops": 3.306345853563974,
+      "uniform_query_mean_mops": 3.419350773975408
+    },
+    {
+      "payload_words": 1280,
+      "algorithm": "CS_shrink",
+      "update_mean_mops": 4.7182126993770455,
+      "present_query_mean_mops": 3.245443893304083,
+      "uniform_query_mean_mops": 3.348386187162879
+    },
+    {
+      "payload_words": 1280,
+      "algorithm": "Misra_Gries",
+      "update_mean_mops": 7.487985789763118,
+      "present_query_mean_mops": 16.123177118420013,
+      "uniform_query_mean_mops": 17.128897044745603
+    },
+    {
+      "payload_words": 1280,
+      "algorithm": "proposed_projected",
+      "update_mean_mops": 3.901243804101207,
+      "present_query_mean_mops": 3.073167782184264,
+      "uniform_query_mean_mops": 3.232877489664229
+    },
+    {
+      "payload_words": 5120,
+      "algorithm": "CMM_mean",
+      "update_mean_mops": 4.854001759251347,
+      "present_query_mean_mops": 2.6424396608360707,
+      "uniform_query_mean_mops": 2.632246897705743
+    },
+    {
+      "payload_words": 5120,
+      "algorithm": "CMS_shrink",
+      "update_mean_mops": 5.075386522034094,
+      "present_query_mean_mops": 3.3801652052071094,
+      "uniform_query_mean_mops": 3.492927093323613
+    },
+    {
+      "payload_words": 5120,
+      "algorithm": "CS_shrink",
+      "update_mean_mops": 4.67048959207825,
+      "present_query_mean_mops": 3.340975783481823,
+      "uniform_query_mean_mops": 3.6773251845046317
+    },
+    {
+      "payload_words": 5120,
+      "algorithm": "Misra_Gries",
+      "update_mean_mops": 3.5686326306585263,
+      "present_query_mean_mops": 15.335422520677078,
+      "uniform_query_mean_mops": 13.79716715102555
+    },
+    {
+      "payload_words": 5120,
+      "algorithm": "proposed_projected",
+      "update_mean_mops": 3.4365785014540804,
+      "present_query_mean_mops": 2.9716884622393747,
+      "uniform_query_mean_mops": 3.093254408034131
+    }
+  ]
+}

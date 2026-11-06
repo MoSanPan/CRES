@@ -1,0 +1,5 @@
+# Keep archived input, result and source bytes identical to the checksum manifest.
+* -text
+*.bin binary
+*.raw binary
+*.zip binary

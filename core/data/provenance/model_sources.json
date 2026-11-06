@@ -1,0 +1,13 @@
+{
+  "description": "Monte Carlo realizations of explicitly defined mathematical sources; PCG64 is a simulation implementation and is not itself asserted to satisfy an information-theoretic block-source condition.",
+  "seed": 2026102601,
+  "iid": {
+    "universe": 4294967296,
+    "theoretical_h": 32
+  },
+  "sticky": {
+    "beta": 0.0009765625,
+    "universe": 4294967296,
+    "theoretical_h": 19.999647822855522
+  }
+}

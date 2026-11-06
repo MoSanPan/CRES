@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-29",
+  "frozen_before_execution": true,
+  "case_count": 168,
+  "hash_repetitions": 5,
+  "hash_rep_start": 100,
+  "hash_seed": "2026102600 + rep",
+  "absent_query_seed": "7740041 + rep",
+  "absent_samples": 131072,
+  "public_block_dependence": "Nonoverlapping byte blocks; no claim of probabilistic independence. 16/32-bit encodings share raw bytes.",
+  "source_repeats": "Four separately seeded model realizations per beta or support setting, with five hash/query repetitions within each realization.",
+  "no_pooling": "Do not pool public, scale, allocation, dependence and entropy studies into original 12-configuration headline.",
+  "no_dictionary_baseline": "All allocations retain a residual CMS; fraction 1 is the no-dictionary full CMS endpoint.",
+  "queries": "Full-universe MSE; present-key uniform MSE; frequency-weighted MSE = sum f_q(error_q)^2 / T. The last is an explicit sensitivity workload, not an observed business workload.",
+  "original_results": "Original package, source and results are read-only.",
+  "comparators": {
+    "total": 14,
+    "original_retained": 13,
+    "added": "CMM_mean: local formula implementation of the median of rowwise collision-corrected CMS counts, clipped to [0, minimum query bucket]; reference checked by manuscript editor. Not author code."
+  }
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ANU_public_prefix_16_1280",
+    "input": "data/inputs/ANU_public_prefix_16.bin",
+    "bits": 16,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "ANU_public_prefix_16_5120",
+    "input": "data/inputs/ANU_public_prefix_16.bin",
+    "bits": 16,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "ANU_public_prefix_32_1280",
+    "input": "data/inputs/ANU_public_prefix_32.bin",
+    "bits": 32,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "ANU_public_prefix_32_5120",
+    "input": "data/inputs/ANU_public_prefix_32.bin",
+    "bits": 32,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Belem_16_1280",
+    "input": "data/inputs/IBM_Belem_16.bin",
+    "bits": 16,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Belem_16_5120",
+    "input": "data/inputs/IBM_Belem_16.bin",
+    "bits": 16,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Belem_32_1280",
+    "input": "data/inputs/IBM_Belem_32.bin",
+    "bits": 32,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Belem_32_5120",
+    "input": "data/inputs/IBM_Belem_32.bin",
+    "bits": 32,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Quito_16_1280",
+    "input": "data/inputs/IBM_Quito_16.bin",
+    "bits": 16,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Quito_16_5120",
+    "input": "data/inputs/IBM_Quito_16.bin",
+    "bits": 16,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Quito_32_1280",
+    "input": "data/inputs/IBM_Quito_32.bin",
+    "bits": 32,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "IBM_Quito_32_5120",
+    "input": "data/inputs/IBM_Quito_32.bin",
+    "bits": 32,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "public"
+  },
+  {
+    "id": "model_iid_32_1280",
+    "input": "data/inputs/model_iid_32.bin",
+    "bits": 32,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "model"
+  },
+  {
+    "id": "model_iid_32_5120",
+    "input": "data/inputs/model_iid_32.bin",
+    "bits": 32,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "model"
+  },
+  {
+    "id": "model_sticky_32_1280",
+    "input": "data/inputs/model_sticky_32.bin",
+    "bits": 32,
+    "payload_words": 1280,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "model"
+  },
+  {
+    "id": "model_sticky_32_5120",
+    "input": "data/inputs/model_sticky_32.bin",
+    "bits": 32,
+    "payload_words": 5120,
+    "d": 5,
+    "repetitions": 20,
+    "absent_samples": 131072,
+    "rep_start": 0,
+    "kind": "model"
+  }
+]

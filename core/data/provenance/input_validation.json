@@ -1,0 +1,10 @@
+{
+  "IBM_Belem_16.bin": "83e4dd024d445cf664d66e7cf8a63d1c3d4e1d6a29853bb17a34f1ce6fb31b18",
+  "IBM_Belem_32.bin": "981b500428a25e9e413b1b52892813439de2e2e3242a86d6894ccba3ee535846",
+  "IBM_Quito_16.bin": "64b0d2630847749b8ed5ba48d3cbcc88c0384dc5be70991546ea2c74cfd7c9b1",
+  "IBM_Quito_32.bin": "e717a87beefb8d392219e218c5034b036aea4c686f523b29e4e7ac543687b1eb",
+  "ANU_public_prefix_16.bin": "3c139a1cc868e25784f2067c0dd1192ef1acdc8ea416de493a8ee56f0d8780f7",
+  "ANU_public_prefix_32.bin": "ff6383117888831ddbe3a9e25d5db2ff89f64c02ef795810131c1baeeb2ded45",
+  "model_iid_32.bin": "c0805e23cdb2e3b91481ecd43d2c5340e4298e1c577a4d7fa6bf3cadb9b27108",
+  "model_sticky_32.bin": "132db75e8f0941170e116b31dadc90ecea324d1d51ecff7dc80c566cebfdb6a7"
+}
